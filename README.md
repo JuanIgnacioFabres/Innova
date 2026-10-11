@@ -1,9 +1,11 @@
 # ❄️ SmartTag Fridge — Sistema Inteligente de Gestión de Alimentos
 
+> 🌐 **Demo en Vivo (Deploy en Render):** [https://smarttag-fridge.onrender.com/](https://smarttag-fridge.onrender.com/)
+
 Prototipo funcional Single Page Application (SPA) responsive y mobile-first para la gestión inteligente de alimentos en el refrigerador mediante **Smart Tags simulados (NFC)**.
 
 Este proyecto implementa una **arquitectura híbrida de dos niveles**:
-1. **Inteligencia Artificial (Gemini 1.5 Flash):** Se consulta **únicamente al registrar un plato** para clasificar sus parámetros cinéticos y bromatológicos oficiales (normas FDA/USDA) en formato JSON estructurado.
+1. **Inteligencia Artificial (Gemini 2.5 Flash):** Se consulta **únicamente al registrar un plato** para clasificar sus parámetros cinéticos y bromatológicos oficiales (normas FDA/USDA) en formato JSON estructurado.
 2. **Modelo Microbiológico Determinista en Cliente (React):** Calcula en tiempo real el desgaste de vida útil acumulado frente a las variaciones y choques térmicos, sin reconsultar el LLM.
 
 ---

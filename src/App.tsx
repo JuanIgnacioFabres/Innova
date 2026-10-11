@@ -346,7 +346,7 @@ export function App() {
                 No hay tápers en este estado
               </h3>
               <p className="text-xs text-slate-500 max-w-sm mx-auto">
-                No se encontraron Smart Tags activos que coincidan con el filtro seleccionado.
+                No se encontraron No-Loss Tags activos que coincidan con el filtro seleccionado.
               </p>
               <button
                 onClick={() => setFilterStatus('all')}
@@ -374,7 +374,7 @@ export function App() {
       <footer className="mt-auto border-t border-slate-200 bg-white/60 py-6 text-center text-xs text-slate-500">
         <div className="max-w-5xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
           <span>
-            SmartTag Fridge • Prototipo de Gestión Inteligente con Simulación NFC
+            No-Loss Tag • Prototipo de Gestión Inteligente con Simulación NFC
           </span>
           <span className="font-mono text-[11px] text-slate-400">
             Cinética Bromatológica FDA / USDA • Algoritmo Q₁₀ determinista en React

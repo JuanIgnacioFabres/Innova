@@ -180,7 +180,7 @@ export const ThermalSandboxModal: React.FC<Props> = ({
                 {current_temp.toFixed(1)} °C
               </div>
               <div className="text-[10px] text-slate-500 mt-0.5">
-                Sensor Smart Tag
+                Sensor No-Loss Tag
               </div>
             </div>
 
@@ -658,7 +658,7 @@ export const ThermalSandboxModal: React.FC<Props> = ({
             }}
             className="text-xs text-rose-600 hover:text-rose-800 font-semibold px-3 py-2 rounded-xl hover:bg-rose-50 transition-colors"
           >
-            Desvincular Smart Tag
+            Desvincular No-Loss Tag
           </button>
 
           <button

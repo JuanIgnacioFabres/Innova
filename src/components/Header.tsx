@@ -42,7 +42,7 @@ export const Header: React.FC<Props> = ({
             <div>
               <div className="flex items-center gap-2">
                 <h1 className="text-lg sm:text-xl font-black text-slate-900 tracking-tight my-0">
-                  SmartTag <span className="text-teal-600">Fridge</span>
+                  No-Loss <span className="text-teal-600">Tag</span>
                 </h1>
                 <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-teal-50 text-teal-700 font-bold border border-teal-200">
                   v2.0 Híbrido
@@ -109,7 +109,7 @@ export const Header: React.FC<Props> = ({
             {/* Active Tags Badge */}
             <div
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-100 text-slate-700 text-xs font-mono font-semibold border border-slate-200"
-              title="Total de Smart Tags activos en el refrigerador"
+              title="Total de No-Loss Tags activos en el refrigerador"
             >
               <span>{totalTags} Tápers</span>
             </div>

@@ -1,8 +1,8 @@
-# ❄️ SmartTag Fridge — Sistema Inteligente de Gestión de Alimentos
+# ❄️ No-Loss Tag — Sistema Inteligente de Gestión de Alimentos
 
 > 🌐 **Demo en Vivo (Deploy en Render):** [https://smarttag-fridge.onrender.com/](https://smarttag-fridge.onrender.com/)
 
-Prototipo funcional Single Page Application (SPA) responsive y mobile-first para la gestión inteligente de alimentos en el refrigerador mediante **Smart Tags simulados (NFC)**.
+Prototipo funcional Single Page Application (SPA) responsive y mobile-first para la gestión inteligente de alimentos en el refrigerador mediante **No-Loss Tags simulados (NFC)**.
 
 Este proyecto implementa una **arquitectura híbrida de dos niveles**:
 1. **Inteligencia Artificial (Gemini 2.5 Flash):** Se consulta **únicamente al registrar un plato** para clasificar sus parámetros cinéticos y bromatológicos oficiales (normas FDA/USDA) en formato JSON estructurado.
@@ -73,7 +73,7 @@ $$\Delta t_{\text{efectivo}} = r(T) \cdot \Delta t_{\text{reloj}}$$
 ## 📱 Vistas y Funcionalidades del Prototipo
 
 1. **Dashboard Principal ("Mis Tápers"):**
-   - Tarjetas informativas de Smart Tags activos.
+   - Tarjetas informativas de No-Loss Tags activos.
    - Semáforo visual con barra de progreso y horas restantes.
    - Badge con bacteria patógena crítica (`critical_hazard`).
    - Botón de estrés rápido directo: `+2h Mesón (22 °C)` con recálculo visual en tiempo real.

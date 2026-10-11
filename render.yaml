@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: smarttag-fridge
+    name: no-loss-tag
     runtime: static
     buildCommand: npm install && npm run build
     staticPublishPath: ./dist

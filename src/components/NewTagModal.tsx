@@ -201,7 +201,7 @@ export const NewTagModal: React.FC<Props> = ({
               <h2 className="text-base sm:text-lg font-bold text-white flex items-center gap-2">
                 Simular Toque NFC
                 <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-teal-950 text-teal-300 border border-teal-800">
-                  Smart Tag Registration
+                  No-Loss Tag Registration
                 </span>
               </h2>
               <p className="text-xs text-slate-400">
